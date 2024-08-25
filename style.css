@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('./images/bg-pattern.svg') ;
+    background-repeat: no-repeat;
+    /*  
+    background-attachment: fixed; */
+    /* height: 80vh; */
+    background-size: 100% 70%;
+    background-color: hsl(230, 100%, 99%);
+    height: 100vh;
+    font-family: sans-serif;
+ }
+
+
+
+ .overall{
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+ }
+
+
+
+
+
+
+
+
+.head{
+    /* background-image: url('/images/pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center; */
+    position: relative;
+    bottom: px;
+    z-index: 1;
+    text-align: center;
+  }
+
+
+ .circle{
+    position:absolute;
+    top: 30px;
+     z-index: 1;
+     padding-left: 130px;
+ }
+
+
+
+ /* everything for box */
+ .comparison-box{
+    height: 375px;
+    width:500px;
+    background-color: white;
+    box-shadow:3px 3px 3px 3px rgb(228, 227, 227,0.3);
+    border-radius: 5px;
+
+ }
+
+
+ /* the drag */
+.the-line{
+   height: 10px;
+   width: 400px;
+   border-radius: 20px;
+   background-color: grey;
+   position: relative;
+ }
+
+.drag-cont{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.drag-ball{
+   height: 40px;
+   width: 40px; 
+   background-color: hsl(174, 86%, 45%);
+   border: none;
+   border-radius: 20px;
+   position: absolute;
+   z-index: 1;
+   top: -12px;
+ }
+
+
+
+/* info */
+.info{
+   height: 50%;
+   border-bottom: 1px solid rgb(177, 176, 176,0.3);
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   padding-top: 40px;
+}
+
+.info-head{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.switch-holder{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.switch-container{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+ }
+
+.toogle-container{
+   height: 25px;
+   width: 55px;
+   background-color: lightgrey;
+   border-radius: 20px;
+}
+
+.ball{
+ height: 20px;
+ width: 20px;
+ border-radius: 20px;
+background-color: white;
+margin-top: 2px;
+}
+
+
+.discount{
+   height: px;
+   padding: 4px;
+   width: 70px;
+   color: orange;
+   background-color: rgb(255, 166, 0, 0.2);
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   text-align: center;
+   gap: 3px;
+   font-size: 10px;
+   font-weight: bold;
+   margin-left: 10px;
+   border-radius: 18px;
+}
+
+span{
+
+ }
+
+
+
+ ul{
+   list-style: none;
+   line-height: 27px;
+ }
+
+ .box-footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+   padding-top: 25px;
+ }
+
+ .trial-btn{
+   color: white;
+   font-size: 13px;
+   background-color: black;
+   padding: 9px;
+   border: none;
+   border-radius: 20px;
+   width: 30%;
+ }
+
+ .icon-check{
+
+   height: 10px;
+   margin-right: 13px;
+ }
